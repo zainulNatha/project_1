@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.pasystemsltd.mediaplayer.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/udacity" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="78dp"
+        app:srcCompat="@drawable/udacity_map" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="BE IN DEMAND"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        android:textColor="#0fb6ce"/>
+
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4"
+        app:srcCompat="@drawable/location" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_alignTop="@+id/imageView6"
+            android:text="Office locations list.
+Mountain View (HQ)
+United States.
+2465 Latham St 94040."
+            android:textSize="10sp" />
+
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/imageView7"
+        android:layout_toRightOf="@+id/imageView7"
+        android:text="+1 650-938-9090"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4"
+        app:srcCompat="@drawable/phone" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_marginBottom="12dp"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4"
+        app:srcCompat="@drawable/email" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignTop="@+id/imageView8"
+        android:text="www.udacity.com"
+        android:textSize="10sp" />
+
+
+
+
+
+</RelativeLayout>
